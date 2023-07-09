@@ -3,7 +3,6 @@
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
-
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -36,7 +35,6 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -63,11 +61,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet_clinic_database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Vet_clinic_database]** is a relational database for a vet clinic based on a real-life example
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -102,9 +98,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Create tables]**
+- **[Store data]**
+- **[Query data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +110,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link](<comming soon>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,6 +138,9 @@ Example command:
 
 Clone this repository to your desired folder:
 
+cd my-folder
+git clone https://github.com/TamaraDimov/Vet_clinic_database.git
+
 <!--
 Example commands:
 
@@ -154,6 +153,8 @@ Example commands:
 ### Install
 
 Install this project with:
+
+psql -U <username> -d <databasename> -f schema.sql
 
 <!--
 Example command:
@@ -168,6 +169,8 @@ Example command:
 
 To run the project, execute the following command:
 
+psql -U <username> -d <databasename> -f queries.sql
+
 <!--
 Example command:
 
@@ -175,30 +178,6 @@ Example command:
   rails server
 ```
 --->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,17 +187,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Tamara Dimov**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
+- LinkedIn: [Tamara Dimov](https://www.linkedin.com/in/tamara-dimov-b85139a2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
