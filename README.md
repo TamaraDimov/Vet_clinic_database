@@ -46,8 +46,8 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites) -->
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  <!-- - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -195,9 +195,9 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **[Is this project based on a real-life example?]**
+- **Is this project based on a real-life example?**
 
-  - [Yes,this project is based on a real-life example.]
+  - Yes,this project is based on a real-life example.
   <!--
 
 <!-- - **[Question_2]**
