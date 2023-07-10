@@ -1,6 +1,6 @@
 # Vet clinic database
 
-## Getting Started
+<!-- ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
@@ -8,7 +8,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
-<a name="readme-top"></a>
+<a name="readme-top"></a> -->
 
 <!--
 HOW TO USE:
@@ -58,9 +58,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet_clinic_database] <a name="about-project"></a>
+# 📖 Vet_clinic_database <a name="about-project"></a>
 
-**[Vet_clinic_database]** is a relational database for a vet clinic based on a real-life example
+**Vet_clinic_database** is a relational database for a vet clinic based on a real-life example
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -77,9 +77,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Create tables]**
-- **[Store data]**
-- **[Query data]**
+- **Create tables**
+- **Store data**
+- **Query data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,8 +99,8 @@ After you're finished please remove all the comments and instructions!
 
 Clone this repository to your desired folder:
 
-cd my-folder
-git clone https://github.com/TamaraDimov/Vet_clinic_database.git
+`cd my-folder`
+`git clone https://github.com/TamaraDimov/Vet_clinic_database.git`
 
 <!--
 Example commands:
@@ -115,7 +115,7 @@ Example commands:
 
 Install this project with:
 
-psql -U <username> -d <databasename> -f schema.sql
+`psql -U <username> -d <databasename> -f schema.sql`
 
 <!--
 Example command:
@@ -130,7 +130,7 @@ Example command:
 
 To run the project, execute the following command:
 
-psql -U <username> -d <databasename> -f queries.sql
+`psql -U <username> -d <databasename> -f queries.sql`
 
 <!--
 Example command:
@@ -157,9 +157,9 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Multiple tables]**
-- [ ] **[Join tables]**
-- [ ] **[Db performance audit]**
+- [ ] **Multiple tables**
+- [ ] **Join tables**
+- [ ] **Db performance audit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +202,7 @@ I would like to thank...
 
 <!-- - **[Question_2]**
 
-  - [Answer_2] --> -->
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
