@@ -1,7 +1,4 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+# Vet clinic database
 
 ## Getting Started
 
@@ -45,8 +42,8 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
+  <!-- - [Setup](#setup)
+  - [Prerequisites](#prerequisites) -->
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -55,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
+<!-- - [🙏 Acknowledgements](#acknowledgements) -->
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
@@ -69,34 +66,16 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Database</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://reactjs.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[Create tables]**
 - **[Store data]**
@@ -108,31 +87,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](<comming soon>)
+- Not avalible at this moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -185,8 +146,6 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Tamara Dimov**
 
 - GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
@@ -198,11 +157,9 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Multiple tables]**
+- [ ] **[Join tables]**
+- [ ] **[Db performance audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,35 +177,32 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project ⭐️ it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[Is this project based on a real-life example?]**
 
-- **[Question_1]**
+  - [Yes,this project is based on a real-life example.]
+  <!--
 
-  - [Answer_1]
+<!-- - **[Question_2]**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - [Answer_2] --> -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,8 +210,8 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
