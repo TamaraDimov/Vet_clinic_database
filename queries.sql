@@ -61,11 +61,13 @@ GROUP BY species;
 COMMIT;
 
 
-SELECT * FROM animals LEFT JOIN owners ON owners.id = owners_id WHERE owners_id= 4;
+SELECT * FROM animals LEFT JOIN owners ON owners.id = owners_id WHERE owners.full_name='Melody Pond';
 SELECT * FROM animals LEFT JOIN species ON species.id = species_id WHERE species.name = 'Pokemon';
 SELECT * FROM animals JOIN owners ON animals.owners_id = owners.id;
 SELECT species.name,COUNT(species_id) FROM animals LEFT JOIN species ON species.id = species_id GROUP BY species.name;
-SELECT * FROM animals JOIN species ON species.id = species_id WHERE species.name = 'Digimon' AND owners_id=2; 
+SELECT full_name, animals.name FROM animals JOIN owners ON animals.owners_id = owners.id WHERE full_name = 'Jennifer Orwell' AND species_id = 1;
 SELECT * FROM animals JOIN owners ON owners.id = owners_id WHERE escape_attempts < 1 AND owners.full_name='Dean Winchester';
 SELECT full_name, COUNT (animals.owners_id) AS total FROM animals JOIN owners ON animals.owners_id = owners.id
 GROUP BY owners.full_name ORDER BY total DESC; 
+
+
