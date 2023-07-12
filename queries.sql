@@ -49,7 +49,6 @@ SET weight_kg = weight_kg*-1 WHERE weight_kg < 0;
 COMMIT;
 
 BEGIN;
-
 SELECT COUNT (id) FROM animals;
 SELECT COUNT(escape_attempts) FROM animals WHERE escape_attempts = 0;
 SELECT AVG (weight_kg) FROM animals;
@@ -59,3 +58,16 @@ GROUP BY species;
 SELECT species, AVG(escape_attempts)
 FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND  '2000-12-31'
 GROUP BY species;
+COMMIT;
+
+
+SELECT * FROM animals LEFT JOIN owners ON owners.id = owners_id WHERE owners.full_name='Melody Pond';
+SELECT * FROM animals LEFT JOIN species ON species.id = species_id WHERE species.name = 'Pokemon';
+SELECT * FROM animals JOIN owners ON animals.owners_id = owners.id;
+SELECT species.name,COUNT(species_id) FROM animals LEFT JOIN species ON species.id = species_id GROUP BY species.name;
+SELECT full_name, animals.name FROM animals JOIN owners ON animals.owners_id = owners.id WHERE full_name = 'Jennifer Orwell' AND species_id = 1;
+SELECT * FROM animals JOIN owners ON owners.id = owners_id WHERE escape_attempts < 1 AND owners.full_name='Dean Winchester';
+SELECT full_name, COUNT (animals.owners_id) AS total FROM animals JOIN owners ON animals.owners_id = owners.id
+GROUP BY owners.full_name ORDER BY total DESC; 
+
+

@@ -7,5 +7,23 @@ CREATE TABLE animals (
     escape_attempts INT,
     neutered BOOLEAN,
     weight_kg DECIMAL,
-    species VARCHAR(100)
 );
+
+CREATE TABLE owners(
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+    );
+
+CREATE TABLE species(
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+    );
+
+ALTER TABLE animals 
+DROP COLUMN species;
+
+ALTER TABLE animals
+ADD COLUMN species_id BIGINT REFERENCES species (id),
+ADD COLUMN owners_id BIGINT REFERENCES owners (id);
+
