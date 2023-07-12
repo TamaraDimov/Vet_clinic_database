@@ -39,3 +39,10 @@ CREATE TABLE specializations (
     species_id integer REFERENCES species(id),
     PRIMARY KEY (vets_id, species_id)    
 );
+
+CREATE TABLE visits (
+animals_id integer REFERENCES animals(id),
+vets_id integer REFERENCES vets(id),
+PRIMARY KEY (animals_id,vets_id)
+);
+ ALTER TABLE visits ADD COLUMN date_of_visit DATE;
