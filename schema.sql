@@ -27,3 +27,15 @@ ALTER TABLE animals
 ADD COLUMN species_id BIGINT REFERENCES species (id),
 ADD COLUMN owners_id BIGINT REFERENCES owners (id);
 
+CREATE TABLE vets (
+    id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    date_of_graduation DATE NOT NULL
+);
+
+CREATE TABLE specializations (
+ vets_id integer REFERENCES vets(id), 
+    species_id integer REFERENCES species(id),
+    PRIMARY KEY (vets_id, species_id)    
+);
