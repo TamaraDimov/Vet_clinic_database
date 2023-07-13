@@ -6,7 +6,7 @@ CREATE TABLE animals (
     date_of_birth DATE NOT NULL,
     escape_attempts INT,
     neutered BOOLEAN,
-    weight_kg DECIMAL,
+    weight_kg DECIMAL
 );
 
 CREATE TABLE owners(
@@ -41,8 +41,8 @@ CREATE TABLE specializations (
 );
 
 CREATE TABLE visits (
-animals_id integer REFERENCES animals(id),
-vets_id integer REFERENCES vets(id),
-PRIMARY KEY (animals_id,vets_id)
+    id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    animals_id integer REFERENCES animals(id),
+    vets_id integer REFERENCES vets(id),
+    date_of_visit DATE
 );
- ALTER TABLE visits ADD COLUMN date_of_visit DATE;
