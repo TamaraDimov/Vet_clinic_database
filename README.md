@@ -48,7 +48,6 @@ After you're finished please remove all the comments and instructions!
   <!-- - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 <!-- - [🙏 Acknowledgements](#acknowledgements) -->
@@ -76,9 +75,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **Create tables**
+- **Multiple tables**
 - **Store data**
-- **Query data**
+- **Db performance audit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,15 +141,15 @@ Example command:
 - GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
 - LinkedIn: [Tamara Dimov](https://www.linkedin.com/in/tamara-dimov-b85139a2/)
 
+👤 **Shalini Nayan**
+
+- GitHub: [@ShaliniNayan](https://github.com/ShaliniNayan)
+- Twitter: [@sndprs](https://twitter.com/sndprs)
+- LinkedIn: [shalininayan](https://www.linkedin.com/in/shalininayan/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Multiple tables**
-- [ ] **Join tables**
-- [ ] **Db performance audit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
