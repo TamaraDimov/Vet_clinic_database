@@ -48,7 +48,7 @@ After you're finished please remove all the comments and instructions!
   <!-- - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+- [🔭 Schema Diagram](#Schema-Diagram)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 <!-- - [🙏 Acknowledgements](#acknowledgements) -->
@@ -76,9 +76,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **Create tables**
+- **Multiple tables**
 - **Store data**
-- **Query data**
+- **Db performance audit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,11 +152,13 @@ Example command:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Schema Diagram <a name="Schema Diagram"></a>
 
-- [ ] **Multiple tables**
+![Schema Diagram](<Screenshot 2023-07-17 124731.png>)
+
+<!-- - [ ] **Multiple tables**
 - [ ] **Join tables**
-- [ ] **Db performance audit**
+- [ ] **Db performance audit** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
