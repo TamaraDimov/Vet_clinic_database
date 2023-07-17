@@ -41,16 +41,14 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
-  <!-- - [Setup](#setup)
-  - [Prerequisites](#prerequisites) -->
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  <!-- - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
+- [🔭 Schema Diagram](#Schema-Diagram)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-<!-- - [🙏 Acknowledgements](#acknowledgements) -->
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
@@ -151,6 +149,10 @@ Example command:
 
 <!-- FUTURE FEATURES -->
 
+## 🔭 Schema Diagram <a name="Schema Diagram"></a>
+
+![(![Schema Diagram]](<Database ER diagram (Vet Clinic).png>)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -171,28 +173,12 @@ If you like this project ⭐️ it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- FAQ (optional) -->
-
 ## ❓ FAQ <a name="faq"></a>
 
 - **Is this project based on a real-life example?**
 
   - Yes,this project is based on a real-life example.
   <!--
-
-<!-- - **[Question_2]**
-
-  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +187,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
-
-<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
