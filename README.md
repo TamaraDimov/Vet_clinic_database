@@ -48,7 +48,6 @@ After you're finished please remove all the comments and instructions!
   <!-- - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
-- [🔭 Schema Diagram](#Schema-Diagram)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 <!-- - [🙏 Acknowledgements](#acknowledgements) -->
@@ -151,14 +150,6 @@ Example command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Schema Diagram <a name="Schema Diagram"></a>
-
-![Schema Diagram](<Screenshot 2023-07-17 124731.png>)
-
-<!-- - [ ] **Multiple tables**
-- [ ] **Join tables**
-- [ ] **Db performance audit** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
